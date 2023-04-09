@@ -9,7 +9,7 @@ function Details() {
     const {id}=useParams()
     const [character, setCharacter] = useState("")
     useEffect(() => {
-        const URL_BASE = "http://localhost:3001/detail/"
+        const URL_BASE = "https://rickandmorty-back-railway-production.up.railway.app/detail/"
         fetch(`${URL_BASE}${id}`)
             .then((response) => response.json())
             .then((char) => {
