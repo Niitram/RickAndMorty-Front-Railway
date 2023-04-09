@@ -1,4 +1,6 @@
-const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{3})+$/;
+/* const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{3})+$/;
+const passwordRegex = /^(?=.*\d).{6,10}$/; */
+const regexEmail = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{3})+$/;
 const passwordRegex = /^(?=.*\d).{6,10}$/;
 
 export const validateEmail = (userData, setErrors) => {

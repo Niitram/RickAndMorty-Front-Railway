@@ -16,7 +16,7 @@ function Favorites() {
         return () => {
             dispatch(filterCards("SELECT_ALL"))
         }
-    }, [locationNow.pathname])
+    }, [dispatch, locationNow.pathname]) 
     
     const handleOrder =(e)=>{
         dispatch(orderCards(e.target.value))

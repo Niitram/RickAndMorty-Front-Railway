@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import { GoReply } from "react-icons/go"
 import styles from "../Detail/Details.module.css"
 
+
 function Details() {
     const {id}=useParams()
     const [character, setCharacter] = useState("")

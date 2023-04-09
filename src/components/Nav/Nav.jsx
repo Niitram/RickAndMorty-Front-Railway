@@ -2,8 +2,6 @@ import React from 'react'
 import SearchBar from "../SearchBar/SearchBar"
 import styles from "./Nav.module.css"
 import { NavLink } from 'react-router-dom'
-import About from '../../Views/About/About'
-import Home from "../../Views/Home/Home"
 import RaMSF from "../../assets/imgs/rickandmortysinfondo.png"
 import { useSelector } from 'react-redux'
 
