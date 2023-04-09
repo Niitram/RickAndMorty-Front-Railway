@@ -28,7 +28,7 @@ function App() {
 
   useEffect(() => {
     !access && navigate('/');
-  }, [access]);
+  }, [navigate, access]);
 
 
 

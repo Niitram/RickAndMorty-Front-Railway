@@ -19,7 +19,7 @@ function Card({name,species,gender,image,id }) {
             setIsFav(true);
          }
       });
-   }, [myFavorites]);
+   }, [id, myFavorites]);
 
    const handleFavorite =()=>{
       if (isFav) {
